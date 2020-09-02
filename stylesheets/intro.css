@@ -10,9 +10,10 @@ h1 {
 }
 
 #myhand {
-    width: 160px;
-    height: 180px;
+    width: 115px;
+    height: 130px;
     position: relative;
+    padding-right: 5px;
     z-index: -1;
     transform: rotate(-20deg);  
 }
@@ -23,18 +24,21 @@ h1 {
 }
 
 #myface {
-    width: 270px;
-    height: 300px;
+    width: 180px;
+    height: 200px;
 }
 
 @media screen and (max-width: 767px) {   
     #myhand {
         width: 100px;
         height: 100px;
-        transform: rotate(-20deg);
+        position: relative;
+        padding-right: 5px;
+        z-index: -1;
+        transform: rotate(-20deg);  
     }
     #myface {
-        width: 160px;
-        height: 180px;
+        width: 150px;
+        height: 170px;
     }
 }
