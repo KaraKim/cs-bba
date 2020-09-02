@@ -1,0 +1,31 @@
+
+body {
+    background-image: linear-gradient(#023e8a, transparent);
+    background-color: #0096c7;
+    height: 2000px;
+    margin:0;   
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    font-size: 62.5%;
+    font-size: 10px;
+}
+
+.start {
+    background-color: red;
+    outline: none;
+    color: black;
+    cursor: pointer;
+}
+
+.stop {
+    background-color: green;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 10rem;
+} 

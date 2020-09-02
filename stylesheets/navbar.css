@@ -1,43 +1,4 @@
-
-body {
-    background-image: linear-gradient(#023e8a, transparent);
-    background-color: #0096c7;
-    height: 2000px;
-    margin:0;   
-    padding:0;
-}
-
-.start {
-    background-color: red;
-    outline: none;
-    color: black;
-    cursor: pointer;
-}
-
-.stop {
-    background-color: green;
-    outline: none;
-    color: white;
-    cursor: pointer;
-}
-
-
-
-@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
-html,
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Quicksand", sans-serif;
-    font-size: 62.5%;
-    font-size: 10px;
-}
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
-
-/* Navbar section */
-
+/* Navigation Bar */
 .nav {
     width: 100%;
     height: 65px;
@@ -55,28 +16,28 @@ body {
 
 .nav div.logo img {
     width: 25px;
+    cursor: pointer;
 }
 
 .nav div.logo a {
     text-decoration: none;
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding-left: 7px;
-    font-weight: bold;
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    cursor: pointer;
 }
 
 .nav div.main_list {
-    height: 65px;
+    height: 50px;
     float: right;
 }
 
 .nav div.main_list ul {
     width: 100%;
-    height: 65px;
+    height: 50px;
     display: flex;
     list-style: none;
     margin: 0;
@@ -85,32 +46,35 @@ body {
 
 .nav div.main_list ul li {
     width: auto;
-    height: 65px;
+    /* height: 65px; */
     padding: 0;
+    display: inline-block;
     padding-right: 3rem;
+    padding-bottom: 0px;
 }
 
 .nav div.main_list ul li a {
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    font-size: 2.4rem;
+    font-size: 1.2rem;
 }
 
-.nav div.main_list ul li a:hover {
-    color: #00E676;
+.navlinks::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    display: block;
+    background-color: white;
+    /* margin-bottom: 10px; */
 }
 
+.navlinks:hover::after {
+    width: 100%;
+    transition: all .5s;
+}
 
 /* Home section */
-
-.home {
-    width: 100%;
-    height: 100vh;
-    background-image: url(https://images.unsplash.com/photo-1498550744921-75f79806b8a7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b0f6908fa5e81286213c7211276e6b3d&auto=format&fit=crop&w=1500&q=80);
-    background-position: center top;
-	background-size:cover;
-}
 
 .navTrigger {
     display: none;
@@ -155,18 +119,19 @@ body {
         right: 0;
         left: 0;
         bottom: 0;
-        background-color: #111;
-        /*same background color of navbar*/
+        padding-right: 5px;
+        background-color:rgba(1,1,1,0.85);
         background-position: center top;
     }
     .nav div.main_list ul li {
-        width: 100%;
+        height: 5rem;
         text-align: right;
+        padding-right: 15px;
     }
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
-        font-size: 3rem;
+        font-size: 1.7rem;
         padding: 20px;
     }
     .nav div.media_button {
@@ -369,26 +334,5 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #111;
-}
-
-
-
-
-
-
-.myH2 {
-	text-align:center;
-	font-size: 4rem;
-}
-.myP {
-	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
-	font-size: 20px;
-}
-@media all and (max-width:700px){
-	.myP {
-		padding:2%;
-	}
+    background-color: rgba(1,1,1,0.5);
 }
