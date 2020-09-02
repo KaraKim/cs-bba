@@ -88,7 +88,7 @@
 }
 
 
-/* Media qurey section */
+/* Media query section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .container {
@@ -120,7 +120,7 @@
         left: 0;
         bottom: 0;
         padding-right: 5px;
-        background-color:rgba(1,1,1,0.85);
+        background-color:rgba(1,1,1,0.95);
         background-position: center top;
     }
     .nav div.main_list ul li {

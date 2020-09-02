@@ -12,7 +12,14 @@ h1 {
 #myhand {
     width: 160px;
     height: 180px;
-    transform: rotate(-20deg);
+    position: relative;
+    z-index: -1;
+    transform: rotate(-20deg);  
+}
+
+#pic {
+    border-radius: 50%;
+    width: 300px;
 }
 
 #myface {
