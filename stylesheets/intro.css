@@ -1,0 +1,33 @@
+
+.intro {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    /* font-size: 2rem; */
+}
+
+#myhand {
+    width: 160px;
+    height: 180px;
+    transform: rotate(-20deg);
+}
+
+#myface {
+    width: 270px;
+    height: 300px;
+}
+
+@media screen and (max-width: 767px) {   
+    #myhand {
+        width: 100px;
+        height: 100px;
+        transform: rotate(-20deg);
+    }
+    #myface {
+        width: 160px;
+        height: 180px;
+    }
+}
