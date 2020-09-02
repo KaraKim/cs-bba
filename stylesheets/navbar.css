@@ -110,7 +110,7 @@
     }
     .nav div.show_list {
         height: auto;
-        display: none;
+        display: inline-block;
     }
     .nav div.main_list ul {
         flex-direction: column;
@@ -124,6 +124,7 @@
         background-position: center top;
     }
     .nav div.main_list ul li {
+        display: inline-block;
         height: 5rem;
         text-align: right;
         padding-right: 15px;
@@ -132,10 +133,17 @@
         text-align: center;
         width: 100%;
         font-size: 1.7rem;
-        padding: 20px;
+        /* padding: 20px; */
     }
     .nav div.media_button {
         display: block;
+    }
+    .navlinks::after {
+        width: 0%;
+    }
+    .navlinks:hover::after {
+        width: 0%;
+        transition: none;
     }
 }
 
