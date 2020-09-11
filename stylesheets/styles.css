@@ -1,8 +1,8 @@
 
 body {
-    background-image: linear-gradient(palevioletred, transparent);
+    background-image: linear-gradient(to bottom right, palevioletred, transparent);
     background-color: #f4d35e;
-    height: 2000px;
+    height: 5000px;
     margin:0;   
     padding:0;
     box-sizing: border-box;
@@ -27,5 +27,12 @@ body {
 
 .intro {
     text-align: center;
-    padding-top: 9rem;
-} 
+    padding-top: 7rem;
+}
+
+hr {
+    border-style: solid none none;
+    border-width: 5px;
+    border-color: white;
+    width: 20%;
+}
