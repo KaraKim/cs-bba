@@ -27,7 +27,14 @@ body {
 
 .intro {
     text-align: center;
-    padding-top: 7rem;
+    padding-top: 8rem;
+}
+
+@media screen and (max-width: 767px) {  
+    .intro {
+        text-align: center;
+        padding-top: 6.5rem;
+    }
 }
 
 hr {
