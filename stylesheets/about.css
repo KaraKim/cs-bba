@@ -5,22 +5,23 @@
 }
 
 .pic {
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 10%;
     height: 350px;
     border-radius: 50%;
     float: left;
     margin-right: 100px;
+    margin-bottom: 100px;
 }
 
 .aboutInfo {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     padding-right: 80px;
     line-height: 1.6;
 }
 
 .hello {
-    padding-top: 50px;
+    padding-top: 30px;
     font-size: 2.5rem;
     padding-right: 80px;
     margin-bottom: 0;
