@@ -1,6 +1,56 @@
 .about {
-    padding-top: 70px;
+    padding-top: 120px;
     font-size: 2rem;
     color: white;
-    text-align: center;
+}
+
+.pic {
+    margin-top: 100px;
+    margin-left: 10%;
+    height: 350px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 100px;
+}
+
+.aboutInfo {
+    font-size: 1.2rem;
+    padding-right: 80px;
+    line-height: 1.6;
+}
+
+.hello {
+    padding-top: 50px;
+    font-size: 2.5rem;
+    padding-right: 80px;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 767px) {   
+    .about {
+        padding-top: 50px;
+        text-align: center;
+        font-size: 2rem;
+        color: white;
+    }
+    .pic {
+        margin-top: 30px;
+        margin-left: 0;
+        height: 150px;
+        border-radius: 50%;
+        float: none;
+        margin-right: 0px;
+    }
+    .aboutInfo {
+        font-size: 0.8rem;
+        padding-right: 20px;
+        padding: 5px 25px 0px 25px;
+    }
+    .hello {
+        margin-top: 15px;
+        padding-top: 0px;
+        font-size: 1.5rem;
+        padding-right: 0px;
+        margin-bottom: 0;
+    }
 }
