@@ -43,3 +43,11 @@ hr {
     border-color: white;
     width: 20%;
 }
+
+.title {
+    margin: auto;
+    border: solid white;
+    border-width: 5px;
+    width: fit-content;
+    padding: 10px 10px 10px 10px;
+}
