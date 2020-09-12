@@ -26,6 +26,7 @@ var card = document.querySelectorAll('.card');
 
 card[0].addEventListener('click', function() {
     card[0].classList.toggle('is-flipped');
+    console.log("C");
 });
 
 card[1].addEventListener('click', function() {

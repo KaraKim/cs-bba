@@ -5,6 +5,7 @@
     position: absolute;
     line-height: 65px;
     text-align: center;
+    z-index: 99;
 }
 
 .nav div.logo {
