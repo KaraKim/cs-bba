@@ -1,0 +1,177 @@
+.experiences {
+    padding-top: 100px;
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+}
+
+.instructions {
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+.grid-container {
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.griditem1, .griditem2, .griditem3, .griditem4, .griditem5, .griditem6 {
+    width: 33.33%;
+    float: left;
+}
+
+.scene1, .scene4 {
+    margin-left: 50%;
+    width: 300px;
+    height: 260px;
+    perspective: 600px;
+    margin-right: 0;
+}
+
+.scene4, .scene5, .scene6 {
+    margin-top: 50px;
+}
+.scene2, .scene5 {
+    margin-left: 25%;
+    width: 300px;
+    height: 260px;
+    perspective: 600px;
+    margin-right: 0;
+}
+.scene3, .scene6 {
+    width: 300px;
+    height: 260px;
+    perspective: 600px;
+    margin-right: 0;
+}
+
+.card {
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.cardFace {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+  }
+  
+  .jobTitle1 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .jobTitle2 {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+  /* FIRST CARD - SUN LIFE FINANCIAL*/
+  .cardFront1 {
+    background-color: white;
+  }
+  .sunlife {
+    height: 100px;
+    padding-top: 60px;
+  }
+  .cardBack1 {
+    background: #fcbf49;
+    transform: rotateY(180deg);
+  }
+  /*  */
+
+  /* SECOND CARD - LAURIER ESPORTS */
+  .cardFront2 {
+    background-color: white;
+  }
+  .esports {
+    height: 180px;
+    padding-top: 30px;
+  }
+  .cardBack2 {
+    background: #9b5de5;
+    transform: rotateY(180deg);
+  }
+  .cardFront3 {
+    background-color: #90e0ef;
+  }
+  .cardBack3 {
+    background: white;
+    transform: rotateY(180deg);
+  }
+  .cardFront4 {
+    background-image: linear-gradient(to bottom, #fdffb6, transparent);
+    background-color: #90e0ef;
+  }
+  .cardBack4 {
+    background: blue;
+    transform: rotateY(180deg);
+  }
+  .cardFront5 {
+    background-image: linear-gradient(to bottom, #fdffb6, transparent);
+    background-color: #90e0ef;
+  }
+  .cardBack5 {
+    background: blue;
+    transform: rotateY(180deg);
+  }
+  .cardFront6 {
+    background-image: linear-gradient(to bottom, #fdffb6, transparent);
+    background-color: #90e0ef;
+  }
+  .cardBack6 {
+    background: blue;
+    transform: rotateY(180deg);
+  }
+  .card.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+
+  @media screen and (max-width: 767px) {   
+    .instructions {
+        padding: 20px 20px 0px 20px;
+        font-size: 0.8rem;
+    }
+    .experiences{
+        padding-top: 42px;
+        text-align: center;
+        font-size: 1.8rem;
+        color: white;
+    }
+    .grid-container {
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    
+    .griditem1, .griditem2, .griditem3, .griditem4, .griditem5, .griditem6 {
+        width: 100%;
+        float: left;
+    }
+    .scene1, .scene2, .scene3, .scene4, .scene5, .scene6 {
+        margin-left: 45px;
+        width: 320px;
+        height: 200px;
+        perspective: 600px;
+        margin-right: 0;
+    }
+    .scene2, .griditem3, .scene4, .scene5, .scene6 {
+        margin-top: 20px;
+    }
+    .sunlife {
+        height: 100px;
+        padding-top: 45px;
+    }
+    .esports {
+        height: 120px;
+        padding-top: 30px;
+      }
+}

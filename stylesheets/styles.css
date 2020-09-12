@@ -1,9 +1,10 @@
 
 body {
-    background-image: linear-gradient(to bottom right, palevioletred, transparent);
-    background-color: #f4d35e;
+    /* background-image: linear-gradient(to bottom right, palevioletred, transparent); */
+    /* background-color: #f4d35e; */
+    background-color: #3a86ff;
     height: 5000px;
-    margin:0;   
+    margin:0px;   
     padding:0;
     box-sizing: border-box;
     font-family: "Quicksand", sans-serif;

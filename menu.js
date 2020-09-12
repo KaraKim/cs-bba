@@ -21,3 +21,30 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+var card = document.querySelectorAll('.card');
+
+card[0].addEventListener('click', function() {
+    card[0].classList.toggle('is-flipped');
+});
+
+card[1].addEventListener('click', function() {
+    card[1].classList.toggle('is-flipped');
+});
+
+card[2].addEventListener('click', function() {
+    card[2].classList.toggle('is-flipped');
+});
+
+card[3].addEventListener('click', function() {
+    card[3].classList.toggle('is-flipped');
+});
+
+card[4].addEventListener('click', function() {
+    card[4].classList.toggle('is-flipped');
+});
+
+card[5].addEventListener('click', function() {
+    card[5].classList.toggle('is-flipped');
+});
+

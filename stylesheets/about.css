@@ -1,7 +1,9 @@
 .about {
     padding-top: 120px;
     font-size: 2rem;
+    background-color: #f07167;
     color: white;
+    padding-bottom: 155px;
 }
 
 .pic {
@@ -16,22 +18,22 @@
 
 .aboutInfo {
     font-size: 1.1rem;
-    padding-right: 80px;
+    padding-right: 50px;
     line-height: 1.6;
 }
 
 .hello {
-    padding-top: 30px;
+    padding-top: 25px;
     font-size: 2.5rem;
-    padding-right: 80px;
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 767px) {   
     .about {
         padding-top: 50px;
+        padding-bottom: 19px;
         text-align: center;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: white;
     }
     .pic {
@@ -41,11 +43,12 @@
         border-radius: 50%;
         float: none;
         margin-right: 0px;
+        margin-bottom: 0px;
     }
     .aboutInfo {
         font-size: 0.8rem;
-        padding-right: 20px;
-        padding: 5px 25px 0px 25px;
+        padding-right: 0px;
+        padding: 5px 20px 0px 20px;
     }
     .hello {
         margin-top: 15px;
