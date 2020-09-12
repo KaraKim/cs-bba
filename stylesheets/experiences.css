@@ -67,26 +67,19 @@
     font-size: 1.2rem;
     color: white;
   }
-  .jobTitle2 {
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 1.2rem;
-    color: white;
-  }
 
   /* FIRST CARD - SUN LIFE FINANCIAL*/
   .cardFront1 {
     background-color: white;
   }
   .sunlife {
-    height: 100px;
+    height: 120px;
     padding-top: 60px;
   }
   .cardBack1 {
     background: #fcbf49;
     transform: rotateY(180deg);
   }
-  /*  */
 
   /* SECOND CARD - LAURIER ESPORTS */
   .cardFront2 {
@@ -97,14 +90,21 @@
     padding-top: 30px;
   }
   .cardBack2 {
-    background: #9b5de5;
+    background: #5a189a;
     transform: rotateY(180deg);
   }
+
+  /* THIRD CARD - ACCESSIBLE LEARNING CENTER */
   .cardFront3 {
-    background-color: #90e0ef;
+    background-color: white;
+  }
+  .laurier {
+    height: 110px;
+    padding-top: 70px;
+    padding-left: 15px;
   }
   .cardBack3 {
-    background: white;
+    background: #5a189a;
     transform: rotateY(180deg);
   }
   .cardFront4 {
