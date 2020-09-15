@@ -3,7 +3,7 @@
     font-size: 2rem;
     color: white;
     height: fit-content;
-    background-color: #6a994e;
+    background-color: #38a13d;
     text-align: center;
     height: 850px;
 }
@@ -25,28 +25,27 @@
 }
 
 .scene1, .scene4 {
-    margin-left: 30%;
+    margin: auto;
     width: 350px;
     height: 260px;
     perspective: 600px;
-    margin-right: 0;
+    /* margin-right: 0; */
 }
 
-.scene4, .scene5, .scene6 {
-    margin-top: 50px;
-}
 .scene2, .scene5 {
-    margin-left: 15%;
+    margin: auto;
     width: 350px;
     height: 260px;
     perspective: 600px;
-    margin-right: 0;
 }
 .scene3, .scene6 {
     width: 350px;
     height: 260px;
     perspective: 600px;
-    margin-right: 0;
+    margin: auto;
+}
+.scene4, .scene5, .scene6 {
+    margin-top: 50px;
 }
 
 .card {
@@ -60,6 +59,8 @@
 }
 
 .cardFace {
+  border-radius: 10px;
+
     position: absolute;
     height: 100%;
     width: 100%;
@@ -116,7 +117,7 @@
 
   /* FOURTH CARD - R&K LTD. */
   .cardBack4 {
-    background: blue;
+    background: #393d3f;
     transform: rotateY(180deg);
   }
 
@@ -144,7 +145,7 @@
   }
 
 
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: 700px) {
     .experiences {
         height: 1550px;
     }   
@@ -168,7 +169,7 @@
         float: left;
     }
     .scene1, .scene2, .scene3, .scene4, .scene5, .scene6 {
-        margin-left: 20px;
+        margin-left: 5%;
         width: 90%;
         height: 200px;
         perspective: 600px;
@@ -210,4 +211,92 @@
         padding-left: 15px;
         padding-right: 15px;
       }
+}
+@media screen and (max-width: 700px) and (min-width: 488px) {
+    .jobDescription {
+        font-size: 0.8rem;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 700px){
+    .experiences {
+        height: 900px;
+    }   
+    .instructions {
+        padding: 20px 20px 0px 20px;
+        font-size: 1rem;
+    }
+    .experiences{
+        padding-top: 42px;
+        text-align: center;
+        font-size: 1.8rem;
+        color: white;
+    }
+    .grid-container {
+        padding-top: 20px;
+        box-sizing: border-box;
+    }
+    
+    .griditem1, .griditem2, .griditem3, .griditem4, .griditem5, .griditem6 {
+        width: 50%;
+        float: left;
+    }
+    .scene1, .scene2, .scene3, .scene4, .scene5, .scene6 {
+        margin-left: 7%;
+        width: 90%;
+        height: 200px;
+        perspective: 600px;
+        margin-right: 5%;
+    }
+    .scene2, .scene4, .scene6 {
+        margin-left: 2%;
+    }
+    .scene1, .scene2, .griditem3, .scene4, .scene5, .scene6 {
+        margin-top: 20px;
+    }
+    .sunlife {
+        height: 100px;
+        padding-top: 45px;
+    }
+    .esports {
+        height: 140px;
+        padding-top: 30px;
+    }
+    .laurier {
+        height: 110px;
+        padding-top: 40px;
+        padding-left: 15px;
+    }
+    .tkd {
+        height: 110px;
+        padding-top: 40px;
+    }
+    .deca {
+        height: 80px;
+        padding-top: 60px;
+      }
+    .jobTitle1 {
+        margin-top: 15px;
+        font-weight: bold;
+        font-size: 1rem;
+        color: white;
+      }
+    .jobDescription {
+        font-size: 0.7rem;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 880px) {
+    .jobDescription {
+        font-size: 0.77rem;
+        text-align: left;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }

@@ -28,16 +28,16 @@
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 767px) {   
+@media screen and (max-width: 1100px) {   
     .about {
-        padding-top: 50px;
+        padding-top: 80px;
         padding-bottom: 19px;
         text-align: center;
         font-size: 1.8rem;
         color: white;
     }
     .pic {
-        margin-top: 30px;
+        margin-top: 50px;
         margin-left: 0;
         height: 150px;
         border-radius: 50%;
@@ -46,12 +46,38 @@
         margin-bottom: 0px;
     }
     .aboutInfo {
+        text-align: center;
         font-size: 1rem;
         padding-right: 0px;
         padding: 5px 20px 0px 20px;
     }
     .hello {
         margin-top: 15px;
+        padding-top: 0px;
+        font-size: 1.5rem;
+        padding-right: 0px;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 1281px) and (min-width: 1100px){  
+    .aboutInfo {
+        text-align: left;
+        font-size: 0.95rem;
+        padding-right: 0px;
+        padding: 5px 20px 0px 0px;
+    }
+    .pic {
+        margin-top: 80px;
+        margin-left: 5%;
+        height: 350px;
+        border-radius: 50%;
+        float: left;
+        margin-right: 5%;
+        margin-bottom: 100px;
+    }
+    .hello {
+        margin-top: 70px;
         padding-top: 0px;
         font-size: 1.5rem;
         padding-right: 0px;

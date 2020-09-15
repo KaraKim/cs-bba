@@ -1,11 +1,13 @@
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
     $("#mainListDiv").toggleClass("show_list");
+    $(".nav").toggleClass("shade");
     $("#mainListDiv").fadeIn();
+    $(".nav").fadeIn();
 });
 
 // $(window).scroll(function() {
-//     if ($(document).scrollTop() > 100) {
+//     if ($(document).scrollTop() > 0) {
 //         $('.nav').addClass('affix');
 //         console.log("OK");
 //     } else {
