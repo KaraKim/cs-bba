@@ -37,7 +37,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 mybutton = document.getElementById("scrollUp");
 
 $(window).scroll(function() {
-    if ($(document).scrollTop() > 500) {
+    if ($(document).scrollTop() > 500 || document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         mybutton.style.display = "block";
     } else {
         mybutton.style.display = "none";
