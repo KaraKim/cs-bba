@@ -1,0 +1,13 @@
+.footer-container {
+    font-size: 2rem;
+    color: black;
+    background-color: #f7b538;
+    text-align: center;
+    height: fit-content;
+}
+
+.icons {
+    cursor: pointer;
+    color: black;
+    margin-right: 10px;
+}

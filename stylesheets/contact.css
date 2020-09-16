@@ -4,5 +4,61 @@
     color: white;
     background-color: #f7b538;
     text-align: center;
-    height: 850px;
+    height: fit-content;
 }
+
+.coffee {
+    text-align:left;
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.3rem;
+    line-height: 2;
+}
+
+.comeback {
+    text-align: left;
+    color: black;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 1.3rem;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+
+.links {
+    cursor: pointer;
+    font-size: 1.3rem;
+    margin: auto;
+    border-radius: 15px;
+    background-color: black;
+    border: solid black;
+    border-width: 5px;
+    width: fit-content;
+    padding: 10px 10px 10px 10px;
+}
+
+.links:hover {
+    transform: scale(1.1); 
+  }
+
+  @media screen and (max-width: 700px) {
+    .coffee {
+        color: black;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 1.2rem;
+        line-height: 2;
+    }
+
+    .comeback {
+        text-align: left;
+        color: black;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-size: 1.2rem;
+        line-height: 2;
+        margin-bottom: 0;
+    }
+  }

@@ -12,14 +12,34 @@ $('.navTrigger').click(function () {
 // HACKATHON REDIRECTS
 
 function pageRedirect1() {
-    window.location.href = "https://devpost.com/software/teconnect";
+    window.open( "https://devpost.com/software/teconnect",'_blank')
 }    
 function pageRedirect2() {
-    window.location.href = "https://devpost.com/software/safety-buddy-l1phnt";
+    window.open( "https://devpost.com/software/safety-buddy-l1phnt",'_blank')
 }    
 function pageRedirect3() {
-    window.location.href = "https://devpost.com/software/relief-point";
+    window.open( "https://devpost.com/software/relief-point",'_blank')
 }
+
+// ICON REDIRECTS
+function github() {
+    window.open("https://github.com/KaraKim",'_blank')
+}
+function linkedin() {
+    window.open ("https://www.linkedin.com/in/kara-kim-csbba/", '_blank')
+}
+function facebook() {
+    window.open("https://www.facebook.com/kara.kim.39501",'_blank')
+}
+
+// RESUME AND EMAIL REDIRECTS
+function openEmail() {
+    window.open("mailto:kkim6156@gmail.com")
+}
+function resume() {
+    window.open("assets/resume.pdf",'_blank')
+}
+
 
 // SMOOTH SCROLLING
 
