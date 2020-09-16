@@ -15,6 +15,16 @@ $('.navTrigger').click(function () {
 //     }
 // });
 
+function pageRedirect1() {
+    window.location.href = "https://devpost.com/software/teconnect";
+}    
+function pageRedirect2() {
+    window.location.href = "https://devpost.com/software/safety-buddy-l1phnt";
+}    
+function pageRedirect3() {
+    window.location.href = "https://devpost.com/software/relief-point";
+}    
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();

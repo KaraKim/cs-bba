@@ -3,7 +3,8 @@
     font-size: 2rem;
     background-color: #7161ef;
     color: white;
-    padding-bottom: 155px;
+    padding-bottom: 100px;
+    text-align: center;
 }
 
 .number {
@@ -18,8 +19,22 @@
     perspective: 1000px;
 }
 
+.hackathonLogos {
+  cursor: pointer;
+  height: 200px;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.hackathonLogos:hover {
+  transform: scale(1.1); 
+}
+
 .hackathonInfo {
-    text-align: center;
+  margin-top: 15px;
+  text-align: center;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 @keyframes shake {
@@ -35,4 +50,17 @@
     40%, 60% {
       transform: translate3d(0px, 5px, 0);
     }
+}
+
+@media screen and (max-width:768px) {
+  .hackathonInfo {
+    font-size: 1.2rem;
   }
+  .hackathonLogos {
+    height: 150px;
+    margin: 10px;
+  }
+  .hackathons {
+    padding-top: 80px;
+  }
+}
