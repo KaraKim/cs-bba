@@ -1,3 +1,6 @@
+
+// DROP DOWN MENU
+
 $('.navTrigger').click(function () {
     $(this).toggleClass('active');
     $("#mainListDiv").toggleClass("show_list");
@@ -6,14 +9,7 @@ $('.navTrigger').click(function () {
     $(".nav").fadeIn();
 });
 
-// $(window).scroll(function() {
-//     if ($(document).scrollTop() > 0) {
-//         $('.nav').addClass('affix');
-//         console.log("OK");
-//     } else {
-//         $('.nav').removeClass('affix');
-//     }
-// });
+// HACKATHON REDIRECTS
 
 function pageRedirect1() {
     window.location.href = "https://devpost.com/software/teconnect";
@@ -23,7 +19,9 @@ function pageRedirect2() {
 }    
 function pageRedirect3() {
     window.location.href = "https://devpost.com/software/relief-point";
-}    
+}
+
+// SMOOTH SCROLLING
 
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -34,6 +32,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// ARROW TO SCROLL TO TOP
+
+mybutton = document.getElementById("scrollUp");
+
+$(window).scroll(function() {
+    if ($(document).scrollTop() > 500) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+});
+
+// FLIP EXPERIENCE CARDS
 var card = document.querySelectorAll('.card');
 
 card[0].addEventListener('click', function() {

@@ -50,3 +50,14 @@ hr {
     width: fit-content;
     padding: 10px 10px 10px 10px;
 }
+
+#scrollUp {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    right: 20px;
+    bottom: 20px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
